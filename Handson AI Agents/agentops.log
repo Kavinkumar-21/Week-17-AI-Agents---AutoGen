@@ -1,0 +1,6 @@
+2026-10-08 15:28:26,729 - INFO - [ConcurrentFuturesInstrumentor] Successfully instrumented concurrent.futures.ThreadPoolExecutor
+2026-10-08 15:30:44,861 - ERROR - Error in span gpt-4.llm: Error code: 401 - {'error': {'message': 'Incorrect API key provided: putYourA*iKey. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-08 15:30:44,873 - ERROR - Error in span ag2.agent.code_writer.receive: Error code: 401 - {'error': {'message': 'Incorrect API key provided: putYourA*iKey. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-08 15:30:44,881 - ERROR - Error in span ag2.chat.code_executor_agent_to_code_writer.workflow: Error code: 401 - {'error': {'message': 'Incorrect API key provided: putYourA*iKey. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-08 15:32:45,271 - WARNING - end_session() is deprecated and will be removed in v4 in the future. Use agentops.end_trace() instead.
+2026-10-08 15:32:45,272 - WARNING - end_session called but no active trace context found.
